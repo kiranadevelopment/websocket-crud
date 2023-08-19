@@ -3,3 +3,4 @@
 Project CRUD using websocket
 
 - NODEJS
+- MYSQL
