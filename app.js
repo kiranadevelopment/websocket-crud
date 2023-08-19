@@ -47,6 +47,7 @@ server.on('connection', (socket) => {
 
     socket.send(JSON.stringify(items));
 
+
     socket.on('message', (message) => {
         const data = JSON.parse(message);
 
